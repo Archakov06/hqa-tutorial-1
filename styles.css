@@ -1,0 +1,75 @@
+* {
+  font-size: 18px;
+  outline: none;
+}
+
+body {
+  margin: 40px;
+}
+
+button {
+  background-color: rgb(33, 152, 216);
+  color: #fff;
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+  border-left-color: rosybrown;
+  border-right-color: darkorange;
+  border-top-color: aqua;
+  border-bottom-color: chartreuse;
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+  border-right-style: none;
+}
+
+button:active {
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+input {
+  border: 1px solid #999;
+}
+
+input:focus {
+  color: green;
+  border-color: red;
+}
+
+input:hover {
+  background-color: #909090;
+}
+
+a {
+  color: blue;
+}
+
+a.zashli {
+  color: green;
+}
+
+a.zashli:visited {
+  color: aquamarine;
+}
+
+ul {
+  border: 1px solid purple;
+}
+
+ul li:nth-child(3) {
+  color: red;
+}
+
+ul li:first-child {
+  color: rgb(225, 51, 219);
+}
+
+ul li:last-child {
+  color: rgb(225, 51, 219);
+}
